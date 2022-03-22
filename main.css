@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.appWhatsapp{
+    position: fixed;
+    right: 26px;
+    bottom: 100px;
+    width: 60px;
+    z-index: 1000;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.appWhatsapp img{
+    width: 100%;
+    height: auto;
+}
+
+.conoce{
+    padding: 30px 140px;
+}
+
+.conoce p {
+    text-align: center  ;
+}
+
+.conoces .card {
+    margin: 20px;
+}
+
+footer{
+    background-color: rgb(78, 34, 8);
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+footer li{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+footer h5{
+    color: honeydew;
+}
